@@ -48,6 +48,7 @@ smallest_path = points.copy()
 font = pygame.font.Font('OpenSans-Light.ttf', 32)
 
 run = True
+
 while run:
     screen.fill(white)
     for event in pygame.event.get():
